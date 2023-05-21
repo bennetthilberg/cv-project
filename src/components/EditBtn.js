@@ -8,6 +8,6 @@ export default function EditBtn({handleEdit}){
         setText('Save');
     }
     return (
-        <btn className='edit' onClick={toggleEdit}>{text}</btn>
+        <div className='edit' onClick={toggleEdit}>{text}</div>
     );
 }
